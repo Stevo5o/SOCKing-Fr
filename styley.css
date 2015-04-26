@@ -86,11 +86,12 @@ ul {
     width: 25%;
 }
 
-#about ul li img {
+#projects ul li img {
     max-width: 90%;
-    border: 1px solid black;
+    border: 1px solid black !important;
     padding: 0;
     margin: 12px 0;
+    border-radius: 5px;
 }
 
 ul.grid {
@@ -218,7 +219,7 @@ ul.grid {
 }
 
 .gridImg {
-    max-width: 100%;
+    max-width: 100%;    
 }
 .aboutme{
     max-width: 100%;
