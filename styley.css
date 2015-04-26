@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inconsolata';
-    font-size: 80%;
+    font-size: 70%;
 }
 
 #page {
@@ -17,8 +17,8 @@ body {
 
 nav ul {
     padding: 8px 0px;
-    font-size: 120%;
-    padding-bottom: 20px;
+    font-size: 130%;
+    
 }
 
 nav li {
@@ -28,7 +28,9 @@ nav li {
 
 h1 span {
     color: gold;
-    letter-spacing: 8px;
+    letter-spacing: 1em;
+    background-color: black;    
+
 }
 
 a {
@@ -60,13 +62,14 @@ ul {
 }
 
 #projects ul li img {
-    max-width: 100%;
+    max-width: 95%;
     border: 1px solid black;
-    padding: 0px;
+    padding: 0;
+    margin: 4px 0;
 }
 
 ul.grid {
-    width: 550px;
+    width: 630px;
     max-width: 100%;
 }
 
