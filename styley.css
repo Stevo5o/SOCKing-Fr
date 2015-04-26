@@ -16,6 +16,9 @@ body {
     display: inline-block;
 }
 
+footer{
+    clear:both;
+}
 footer ul {
     padding: 10px 0px;
     font-size: 120%;
@@ -71,8 +74,19 @@ ul {
     margin: 1px;
     width: 25%;
 }
+#about ul {
+    padding: 0;
+    list-style-type: none;
+}
 
-#projects ul li img {
+#about ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 1px;
+    width: 25%;
+}
+
+#about ul li img {
     max-width: 90%;
     border: 1px solid black;
     padding: 0;
@@ -204,5 +218,8 @@ ul.grid {
 }
 
 .gridImg {
+    max-width: 100%;
+}
+.aboutme{
     max-width: 100%;
 }
